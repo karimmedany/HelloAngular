@@ -1,0 +1,7 @@
+<div *ngFor="let item of itemService.Items ">
+    <mat-card stayle="margin:8px">
+  
+    <mat-card-title [routerLink]="['/allitems',item.Id]">{{item.Id}}</mat-card-title>
+    <mat-card-content>{{item.Text}}</mat-card-content>
+    </mat-card>
+    <div>

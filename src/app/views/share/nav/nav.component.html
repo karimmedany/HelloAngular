@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+  <button mat-button  routerLink='/'>Home page</button>
+  <button mat-button  routerLink='/signup'>Signup</button>
+  <button mat-button  routerLink='/signin'>Signin</button>
+  <button mat-button  routerLink='/items'>show items</button>
+  <button mat-button (click)="onChangeLanguage('en')">{{ 'Languages.English' | translate }}</button>
+  <button mat-button (click)="onChangeLanguage('fr')">{{ 'Languages.French' | translate }}</button>
+  <button mat-button (click)="onChangeLanguage('ar')">{{ 'Languages.Arabic' | translate }}</button>
+  </mat-toolbar>
+

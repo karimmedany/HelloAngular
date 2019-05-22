@@ -1,0 +1,18 @@
+<mat-card stayle="margin:8px">
+  <mat-card-content>
+      <mat-card-content>
+          <label  [(ngModel)]="item.Id" >{{item.Id}}</label>
+         </mat-card-content>
+        <mat-card-content>
+            <input mat-input [(ngModel)]="item.Text" placeholder="text">
+          </mat-card-content>
+
+               <mat-card-content>
+                  <mat-card-actions>
+                      <button mat-button (click)="onPost();" color="primary" >Post</button>
+                  </mat-card-actions>
+                      
+                  
+               </mat-card-content>
+              </mat-card-content>
+  </mat-card>
