@@ -1,4 +1,5 @@
 # HelloWorld.Angular
+This project created to demonstrate a clear architecture of angular typescript. Please fill free to fork it or collaborate and if you have any suggestions you are most welcome.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
